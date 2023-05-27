@@ -1,9 +1,14 @@
 import React from "react";
 
-const Login=()=>{
+const Login=({height,mt,title})=>{
     return(
         <div>
-            <h1>login</h1>
+       
+        
+        <input type="text" placeholder={title} class={`input input-bordered input-lg  ${height} ${mt} w-6/12 ml-80`} />
+        
+        
+            
         </div>
     )
 }
